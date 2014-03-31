@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<site xmlns="http://interactive-answers.webmaster.yandex.ru/schemas/site/0.0.1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://interactive-answers.webmaster.yandex.ru/schemas/site-0.0.1.xsd">
+
+<title>Компьютерная служба Позитив - Санкт-Петербург</title>
+
+<rootUrl>pozitive.org</rootUrl>
+
+<protocol>HTTP</protocol>
+
+<description>Ремонт компьютеров / Ремонт ноутбуков / Ремонт планшетов</description>
+
+<resource>
+	<fixed name="pozitive.org">
+		<placeholder name="page">
+			
+		</placeholder>
+	</fixed>		
+</resource>
+
+<filters>
+
+	<dropDown>
+		<description caption="Заказать ремонт">
+			<modifyResource placeholder="page" />
+		</description>
+		<dropDownValue key="computer/remont.html" caption="Компьютера" default="true"/>
+		<dropDownValue key="remont-noutbukov/" caption="Ноутбука" />
+		<dropDownValue key="mobile/" caption="Планшета" />
+		
+	</dropDown>
+
+</filters>
+</site>
